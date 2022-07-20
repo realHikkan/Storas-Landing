@@ -1,0 +1,183 @@
+/* Root */
+
+
+.navbar-nav li{
+	text-align: center !important;
+	}
+ul.icons{
+	text-align: left;
+}
+	p.dis{
+		display: none;
+	}
+
+	.navbar-toggler-icon{
+		display: none;
+	}
+.imgfooter{
+	display: block;
+	margin: 0 auto;
+}
+/* Adaptive */
+.fotorama{
+	display: block;
+}
+
+
+.photomak{
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+}
+
+/* Планшет */
+
+
+/* Телефон */
+@media screen and (min-width: 992px){
+
+	.buttonPC{
+    display: block;
+}
+
+	.fotorama{
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	.storona_txt{
+    order: 1;
+}
+	
+	.storona_img{
+    order: 2;
+}
+.section button.btn-success{
+	display: none;
+}
+	
+}
+
+@media screen and (max-width: 992px){
+	
+	button.btn__section{
+		display: none;
+	}
+	.photo{
+		display: none;
+	}
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+	
+	
+
+	.imgfooter img{
+		width: 160px;
+	}
+
+}
+
+
+@media screen and (max-width: 576px) {
+	.imgfooter{
+		width: 260px;
+    height: 120px;
+	}
+	form.form-inline {
+		margin: 0 !important;
+	}
+	
+	.nav__link a{
+		font-size: 22px !important;
+	}
+	.nav__link{
+		margin: 10px 12px;
+	}
+	.section__title.sys::after {
+	display: block;
+	margin: 0px auto;
+	width: 40%;
+	left: 31%;
+	}
+	.section__title:after {
+		content: "";
+    display: block;
+    vertical-align: middle;
+    width: 55%;
+    height: 5px;
+    background-color: #4A9968;
+    margin: 0 auto;
+}
+}
+	button .scroll_down{
+		bottom: 30px;
+    position: absolute;
+	}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+	
+	
+	.section__title.sys::after {
+		display: block;
+		margin: 0px auto;
+		width: 65%;
+		}
+		.section__title:after {
+			content: "";
+			display: block;
+			vertical-align: middle;
+			width: 80%;
+			height: 5px;
+			background-color: #4A9968;
+			margin: 0 auto;
+	}
+	p.dis{
+		display: block;
+	}
+	ul.navbar-nav{
+		font-size: 20px;
+		line-height: 2;
+	}
+	
+
+	.text-center{
+		margin: 10px;
+		margin-bottom: 10px;
+	}
+
+
+	.section__title{
+		position: relative;
+	}
+	.section__title.sys::after {
+		display: block;
+		margin: 0px auto;
+		width: 40%;
+		left: 31%;
+	}
+	.section__header{
+		text-align: center;
+	}
+	.check__text {
+		font-size: 13px;
+	}
+
+	
+	.slider{
+		display: none;
+	}
+
+}
